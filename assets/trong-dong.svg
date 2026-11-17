@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <!-- Soft golden radial gradient for center star -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#eab308" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.2"/>
+    </radialGradient>
+    
+    <!-- Stylized Chim Lac (Dong Son Flying Bird) -->
+    <g id="chimLac">
+      <!-- Body & Long Bill -->
+      <path d="M 0,-340 Q 25,-350 60,-345 Q 85,-335 110,-310 Q 75,-320 40,-325 Q 10,-328 -10,-315 Z" fill="#fbbf24"/>
+      <!-- Trailing Crest & Tail feathers -->
+      <path d="M -10,-315 Q -40,-310 -80,-290 Q -45,-302 -15,-308 Z" fill="#fbbf24"/>
+      <!-- Eye -->
+      <circle cx="70" cy="-335" r="3" fill="#450a0a"/>
+    </g>
+
+    <!-- Sawtooth triangle unit -->
+    <path id="sawtooth" d="M -8,0 L 0,-12 L 8,0 Z" fill="#fbbf24"/>
+
+    <!-- Concentric circle motif (vòng tròn có chấm giữa) -->
+    <g id="dotCircle">
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="2" fill="#fbbf24"/>
+    </g>
+  </defs>
+
+  <!-- Group centered at (500, 500) -->
+  <g transform="translate(500, 500)">
+    
+    <!-- Outer Rim Borders -->
+    <circle cx="0" cy="0" r="490" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.9"/>
+    <circle cx="0" cy="0" r="478" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="0" cy="0" r="460" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,4" opacity="0.85"/>
+    <circle cx="0" cy="0" r="442" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Ring 1: Outer Tangent Small Circles -->
+    <circle cx="0" cy="0" r="425" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.75"/>
+    <!-- Ring 2: Outer Sawtooth Band -->
+    <circle cx="0" cy="0" r="400" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="8,6" opacity="0.8"/>
+    <circle cx="0" cy="0" r="375" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.85"/>
+
+    <!-- Ring 3: 16 Flying Birds (Chim Lac bay nguoc chieu kim dong ho) -->
+    <g opacity="0.85">
+      <!-- 16 Birds placed at 22.5 deg intervals -->
+      <use href="#chimLac" transform="rotate(0)"/>
+      <use href="#chimLac" transform="rotate(22.5)"/>
+      <use href="#chimLac" transform="rotate(45)"/>
+      <use href="#chimLac" transform="rotate(67.5)"/>
+      <use href="#chimLac" transform="rotate(90)"/>
+      <use href="#chimLac" transform="rotate(112.5)"/>
+      <use href="#chimLac" transform="rotate(135)"/>
+      <use href="#chimLac" transform="rotate(157.5)"/>
+      <use href="#chimLac" transform="rotate(180)"/>
+      <use href="#chimLac" transform="rotate(202.5)"/>
+      <use href="#chimLac" transform="rotate(225)"/>
+      <use href="#chimLac" transform="rotate(247.5)"/>
+      <use href="#chimLac" transform="rotate(270)"/>
+      <use href="#chimLac" transform="rotate(292.5)"/>
+      <use href="#chimLac" transform="rotate(315)"/>
+      <use href="#chimLac" transform="rotate(337.5)"/>
+    </g>
+
+    <!-- Ring 4: Inner Separator -->
+    <circle cx="0" cy="0" r="285" fill="none" stroke="#fbbf24" stroke-width="2.5" opacity="0.85"/>
+    <circle cx="0" cy="0" r="268" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="7,5" opacity="0.8"/>
+    <circle cx="0" cy="0" r="248" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.85"/>
+
+    <!-- Ring 5: Concentric Circles with Dots -->
+    <circle cx="0" cy="0" r="215" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="10,5" opacity="0.8"/>
+    <circle cx="0" cy="0" r="185" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.85"/>
+
+    <!-- Ring 6: Inner Sawtooth -->
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.75"/>
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.85"/>
+
+    <!-- Center 14-pointed Star (Ngoi sao 14 canh Dong Son) -->
+    <!-- Star Rays -->
+    <polygon points="
+      0,-115 12,-38 52,-103 29,-25 93,-72 38,-8 114,-26 40,9 114,26 38,8 93,72 29,25 52,103 12,38 
+      0,115 -12,38 -52,103 -29,25 -93,72 -38,8 -114,26 -40,-9 -114,-26 -38,-8 -93,-72 -29,-25 -52,-103 -12,-38
+    " fill="url(#centerGlow)" stroke="#fbbf24" stroke-width="2"/>
+
+    <!-- Star Center Core -->
+    <circle cx="0" cy="0" r="24" fill="#fef08a" stroke="#d97706" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#b45309"/>
+
+    <!-- Peacock feather motifs between star rays -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.6"/>
+  </g>
+</svg>
