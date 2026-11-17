@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tư tưởng Hồ Chí Minh về Con người & Khát vọng Tuổi trẻ | Nhóm 7 - HaUI</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌟</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        heritage: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#d97706',
+                            600: '#b45309',
+                            800: '#991b1b',
+                            900: '#7f1d1d',
+                            950: '#450a0a'
+                        },
+                        lotus: {
+                            gold: '#fbbf24',
+                            amber: '#d97706',
+                            red: '#be123c',
+                            darkRed: '#881337',
+                            navy: '#0f172a'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Be Vietnam Pro"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        reading: ['"Merriweather"', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-red font-sans selection:bg-amber-400 selection:text-red-950 transition-colors duration-300 relative overflow-x-hidden min-h-screen">
+
+    <!-- Ambient Fixed Decorative Elements (Museum-Grade Polished Background) -->
+    <div class="fixed-bg-dong-son"></div>
+    <div class="ambient-top-glow"></div>
+
+    <!-- Reading Progress Bar -->
+    <div id="scrollProgress" class="fixed top-0 left-0 h-1.5 bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 z-50 transition-all duration-150 shadow-md shadow-amber-400/50" style="width: 0%"></div>
+
+    <!-- Navigation Bar -->
+    <header id="mainNav" class="sticky top-0 z-40 backdrop-blur-md bg-stone-950/90 border-b border-red-900/60 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Badge Frame (Gọn gàng trong khung) -->
+            <a href="#hero" class="flex items-center space-x-2.5 px-3 py-1.5 rounded-2xl bg-red-950/80 border border-amber-400/40 hover:border-amber-300 transition-all shadow-sm group shrink-0">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-red-600 via-red-700 to-amber-500 flex items-center justify-center text-white shadow-md shadow-red-700/50 border border-amber-300/60 group-hover:scale-105 transition-transform shrink-0">
+                    <i class="fa-solid fa-star text-xs text-yellow-300 star-glow"></i>
+                </div>
+                <div class="leading-tight">
+                    <div class="text-[10px] sm:text-[11px] uppercase tracking-wider font-bold text-amber-400 whitespace-nowrap">Tư Tưởng Hồ Chí Minh</div>
+                    <div class="font-serif font-bold text-xs sm:text-sm text-white whitespace-nowrap flex items-center space-x-1.5 mt-0.5">
+                        <span class="px-1.5 py-0.5 bg-amber-400/20 text-yellow-300 rounded text-[10px] sm:text-[11px] font-sans font-bold border border-amber-400/30">Nhóm 7</span>
+                        <span>Triết Lý Con Người</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden lg:flex items-center space-x-1">
+                <a href="#hero" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Trang Chủ</a>
+                <a href="#intro" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Bản Chất Con Người</a>
+                <a href="#role" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Vai Trò & Động Lực</a>
+                <a href="#planting" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Chiến Lược Trồng Người</a>
+                <a href="#students" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Sứ Mệnh Sinh Viên</a>
+                <a href="#mindmap" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Sơ Đồ Tư Duy</a>
+                <a href="#quiz" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-amber-100 hover:text-amber-400 transition-colors">Trắc Nghiệm</a>
+            </nav>
+
+            <!-- Actions -->
+            <div class="flex items-center space-x-2">
+                <!-- Search Button -->
+                <button id="openSearchBtn" title="Tìm kiếm nội dung (Ctrl+K)" class="p-2.5 rounded-full text-amber-200 hover:bg-red-900/40 hover:text-amber-300 transition-colors">
+                    <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                </button>
+
+                <!-- Audio Quote Mode Toggle -->
+                <button id="audioSpeechToggle" title="Nghe đọc trích dẫn tiếng Bác" class="p-2.5 rounded-full text-amber-200 hover:bg-red-900/40 hover:text-amber-300 transition-colors">
+                    <i class="fa-solid fa-volume-high text-sm"></i>
+                </button>
+
+                <!-- Theme Switcher Dropdown / Toggle -->
+                <div class="relative" id="themeDropdownWrapper">
+                    <button id="themeCycleBtn" title="Chọn giao diện: Nền Đỏ / Nền Kem / Nền Tối" class="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-red-950/80 border border-amber-400/40 text-amber-300 hover:bg-red-900 transition-all flex items-center space-x-2 shadow-sm">
+                        <span class="w-2.5 h-2.5 rounded-full bg-red-500 border border-amber-300 animate-pulse"></span>
+                        <span id="themeLabel">Nền Đỏ Cờ</span>
+                        <i class="fa-solid fa-palette text-[10px] text-amber-400"></i>
+                    </button>
+                </div>
+
+                <!-- Action Button -->
+                <a href="#checklist" class="hidden sm:inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 px-4 py-2 rounded-full text-sm font-bold shadow-md shadow-amber-500/25 hover:shadow-lg transition-all">
+                    <i class="fa-solid fa-check-double text-xs"></i>
+                    <span>Tự Soi Tự Sửa</span>
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-lg text-amber-200 hover:bg-red-900/50">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden border-t border-red-900/60 bg-stone-950 px-4 pt-3 pb-6 space-y-2">
+            <a href="#hero" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">Trang Chủ</a>
+            <a href="#intro" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">1. Bản Chất Con Người</a>
+            <a href="#role" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">2. Vai Trò & Động Lực</a>
+            <a href="#planting" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">3. Chiến Lược Trồng Người</a>
+            <a href="#students" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">4. Trách Nhiệm Sinh Viên</a>
+            <a href="#checklist" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">Sổ Tay Tự Soi Tự Sửa</a>
+            <a href="#mindmap" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">Sơ Đồ Tư Duy</a>
+            <a href="#quiz" class="mobile-nav-link block px-3 py-2.5 rounded-md font-medium text-amber-200 hover:bg-red-900/50 hover:text-amber-400">Trắc Nghiệm Kiến Thức</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION: BANNER BÁC HỒ & NỀN ĐỎ TRUYỀN THỐNG CHỈNH CHU -->
+    <section id="hero" class="relative overflow-hidden pt-8 pb-16 lg:pt-12 lg:pb-24">
+        <!-- Ambient lighting elements -->
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -right-32 w-96 h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <!-- MASTER PRESENTATION SHOWCASE (MUSEUM GRADE) -->
+            <div class="mb-14">
+                <div class="presentation-showcase max-w-4xl mx-auto group">
+                    <!-- Image with smooth internal shadow -->
+                    <div class="relative overflow-hidden">
+                        <img src="./assets/banner-ho-chi-minh.jpg?v=final" alt="Học phần: Tư tưởng Hồ Chí Minh - Tượng Bác Hồ, Cờ đỏ sao vàng và Trống Đồng Đông Sơn" class="w-full h-auto object-cover transform group-hover:scale-[1.01] transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-black/20 pointer-events-none"></div>
+                    </div>
+                    
+                    <!-- Bottom Control & Meta Bar on Showcase -->
+                    <div class="bg-gradient-to-r from-red-950 via-stone-950 to-red-950 px-5 py-3.5 border-t border-amber-400/30 flex flex-col sm:flex-row items-center justify-between gap-3">
+                        <div class="flex items-center space-x-3 text-center sm:text-left">
+                            <div class="w-9 h-9 rounded-full bg-red-700 border border-amber-400 flex items-center justify-center text-yellow-300 shrink-0">
+                                <i class="fa-solid fa-graduation-cap text-sm"></i>
+                            </div>
+                            <div class="text-left">
+                                <div class="text-xs font-bold text-amber-300 uppercase tracking-wide">Đại Học Công Nghiệp Hà Nội (HaUI) • Khoa Lý Luận Chính Trị</div>
+                                <div class="text-[11px] text-stone-300 flex flex-wrap items-center gap-1.5 mt-0.5">
+                                    <span>Học phần: <strong class="text-white">Tư tưởng Hồ Chí Minh</strong></span>
+                                    <span class="text-stone-500">•</span>
+                                    <span>GVHD: <span class="text-amber-200">ThS. Nguyễn Thị Ngọc</span></span>
+                                    <span class="text-stone-500">•</span>
+                                    <span class="px-2 py-0.5 rounded-full bg-amber-400/20 text-yellow-300 border border-amber-400/40 font-bold text-[10px]">Báo cáo: Nhóm 7</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2 shrink-0">
+                            <button onclick="speakQuote('Vì lợi ích mười năm thì phải trồng cây, vì lợi ích trăm năm thì phải trồng người. Chúng ta phải đào tạo ra những công dân tốt và cán bộ tốt cho nước nhà.')" class="bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 px-3.5 py-1.5 rounded-xl text-xs font-bold shadow transition-all flex items-center space-x-1.5">
+                                <i class="fa-solid fa-volume-high"></i>
+                                <span>Phát Lời Bác Dạy</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Intro Texts & Quote -->
+            <div class="text-center max-w-4xl mx-auto">
+                <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-red-950/80 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-semibold tracking-wide uppercase mb-6 shadow-sm">
+                    <i class="fa-solid fa-star text-yellow-300 star-glow"></i>
+                    <span>Chuyên Đề Tư Tưởng Hồ Chí Minh</span>
+                </div>
+
+                <!-- Main Title -->
+                <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
+                    Quan Điểm Về Con Người & <br class="hidden sm:inline">
+                    <span class="bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Chiến Lược “Trồng Người” Trăm Năm</span>
+                </h1>
+
+                <!-- Subtitle / Famous Quote -->
+                <p class="font-reading italic text-lg sm:text-xl text-amber-100/90 max-w-3xl mx-auto mb-10 leading-relaxed">
+                    “Vì lợi ích mười năm thì phải trồng cây,<br class="hidden sm:inline">
+                    vì lợi ích trăm năm thì phải <span class="font-semibold text-yellow-400 not-italic">trồng người</span>.”
+                </p>
+
+                <!-- Core Call to Action Buttons -->
+                <div class="flex flex-wrap items-center justify-center gap-4">
+                    <a href="#intro" class="inline-flex items-center px-6 py-3.5 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 font-bold text-sm shadow-lg shadow-amber-500/30 hover:shadow-xl hover:-translate-y-0.5 transition-all">
+                        <span>Khám Phá Các Luận Điểm</span>
+                        <i class="fa-solid fa-arrow-down ml-2 text-xs"></i>
+                    </a>
+                    <a href="#students" class="inline-flex items-center px-6 py-3.5 rounded-full bg-red-950/80 hover:bg-red-900 border border-amber-400/40 text-amber-200 font-semibold text-sm shadow-sm hover:-translate-y-0.5 transition-all">
+                        <i class="fa-solid fa-graduation-cap mr-2 text-yellow-400"></i>
+                        <span>Sứ Mệnh Sinh Viên HaUI</span>
+                    </a>
+                    <a href="#quiz" class="inline-flex items-center px-6 py-3.5 rounded-full bg-stone-900/80 hover:bg-stone-800 border border-stone-700 text-white font-semibold text-sm transition-all">
+                        <i class="fa-solid fa-circle-question mr-2 text-amber-400"></i>
+                        <span>Thử Tài Trắc Nghiệm</span>
+                    </a>
+                </div>
+
+                <!-- Fast Highlight Stats Card Bar -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 text-left">
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-amber-400 mb-2">
+                            <i class="fa-solid fa-people-roof text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Bản Chất</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Một Chỉnh Thể</h4>
+                        <p class="text-xs text-stone-300 mt-1">Hài hòa tâm lực - sức khỏe - hành động; tính xã hội phong phú.</p>
+                    </div>
+
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-yellow-400 mb-2">
+                            <i class="fa-solid fa-gem text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Giá Trị</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Vốn Quý Nhất</h4>
+                        <p class="text-xs text-stone-300 mt-1">Nhân tố quyết định mọi thắng lợi; kế thừa tư tưởng “Dân vi quý”.</p>
+                    </div>
+
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-emerald-400 mb-2">
+                            <i class="fa-solid fa-seedling text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Chiến Lược</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Trồng Người</h4>
+                        <p class="text-xs text-stone-300 mt-1">Nhiệm vụ trăm năm, xây dựng con người XHCN toàn diện.</p>
+                    </div>
+
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-cyan-400 mb-2">
+                            <i class="fa-solid fa-compass text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Hành Động</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Chân - Thiện - Mỹ</h4>
+                        <p class="text-xs text-stone-300 mt-1">Bản sắc HaUI: Tâm sáng - Trí cao trong kỷ nguyên số.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elegant Flowing Red Ribbon Wave Transition -->
+        <div class="w-full overflow-hidden leading-none z-10 relative mt-16 -mb-1 opacity-90">
+            <svg class="w-full h-10 sm:h-16 text-red-950 ribbon-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 C150,90 350,-40 500,60 C650,160 900,10 1200,40 L1200,120 L0,120 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </section>
+
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-yellow-400 mb-2">
+                            <i class="fa-solid fa-gem text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Giá Trị</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Vốn Quý Nhất</h4>
+                        <p class="text-xs text-stone-300 mt-1">Nhân tố quyết định mọi thắng lợi; kế thừa tư tưởng “Dân vi quý”.</p>
+                    </div>
+
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-emerald-400 mb-2">
+                            <i class="fa-solid fa-seedling text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Chiến Lược</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Trồng Người</h4>
+                        <p class="text-xs text-stone-300 mt-1">Nhiệm vụ trăm năm, xây dựng con người XHCN toàn diện.</p>
+                    </div>
+
+                    <div class="site-card p-4 rounded-2xl">
+                        <div class="flex items-center space-x-3 text-cyan-400 mb-2">
+                            <i class="fa-solid fa-compass text-xl"></i>
+                            <span class="text-xs uppercase font-bold tracking-wider text-amber-300/80">Hành Động</span>
+                        </div>
+                        <h4 class="font-bold text-white text-base">Chân - Thiện - Mỹ</h4>
+                        <p class="text-xs text-stone-300 mt-1">Bản sắc HaUI: Tâm sáng - Trí cao trong kỷ nguyên số.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 1: Quan điểm Hồ Chí Minh về Con người -->
+    <section id="intro" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Phần I • Cơ Sở Lý Luận</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1 mb-4">
+                    Quan Điểm Của Hồ Chí Minh Về Con Người
+                </h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mb-4 rounded-full shadow-sm shadow-amber-400/50"></div>
+                <p class="text-stone-300 text-sm sm:text-base leading-relaxed">
+                    Hồ Chí Minh không nhìn nhận con người một cách trừu tượng, phiến diện mà đặt con người trong tính toàn vẹn, lịch sử cụ thể và mối liên hệ xã hội sống động.
+                </p>
+            </div>
+
+            <!-- Content Grid: 3 Pillars -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- Card 1: Con người là một chỉnh thể -->
+                <div class="site-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-red-900/70 border border-amber-400/30 flex items-center justify-center text-amber-300 text-xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-dna"></i>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-bold text-white mb-3">
+                            1. Con Người Như Một Chỉnh Thể
+                        </h3>
+                        <p class="text-stone-300 text-sm leading-relaxed mb-4">
+                            Đề cao sự thống nhất hài hòa không thể tách rời giữa <strong class="text-amber-300">tâm lực</strong>, <strong class="text-amber-300">sức khỏe</strong> và các hoạt động thực tiễn. Ba yếu tố này luôn gắn bó chặt chẽ và tác động qua lại lẫn nhau.
+                        </p>
+
+                        <!-- Box Thiện - Ác -->
+                        <div class="inner-card p-4 rounded-2xl mt-4 space-y-3">
+                            <div class="flex items-center space-x-2 text-xs font-bold text-amber-400 uppercase">
+                                <i class="fa-solid fa-yin-yang"></i>
+                                <span>Thống nhất hai mặt đối lập</span>
+                            </div>
+                            <p class="text-xs text-stone-300 leading-normal">
+                                Trong mỗi con người luôn tồn tại khách quan hai mặt đối lập: <em class="text-amber-200">thiện - ác, tốt - xấu</em>. Chúng luôn cọ xát, tác động và có thể chuyển hóa lẫn nhau.
+                            </p>
+                            <div class="p-3 bg-red-900/50 border-l-4 border-amber-400 rounded-r-lg text-xs italic text-amber-200">
+                                “Phải biết làm cho phần tốt trong mỗi con người nảy nở như hoa mùa xuân và phần xấu phải mất dần đi.”
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-red-900/40 text-xs text-stone-400 flex items-center justify-between">
+                        <span>Quy luật tâm lý & đạo đức</span>
+                        <i class="fa-solid fa-seedling text-emerald-400"></i>
+                    </div>
+                </div>
+
+                <!-- Card 2: Con người cụ thể, lịch sử -->
+                <div class="site-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-900/70 border border-amber-400/30 flex items-center justify-center text-amber-300 text-xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-timeline"></i>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-bold text-white mb-3">
+                            2. Con Người Cụ Thể, Lịch Sử
+                        </h3>
+                        <p class="text-stone-300 text-sm leading-relaxed mb-4">
+                            Hồ Chí Minh luôn nhìn nhận con người gắn chặt với bối cảnh, điều kiện lịch sử và thời đại cụ thể. Mỗi thời kỳ cách mạng lại đặt ra những yêu cầu riêng cho con người.
+                        </p>
+
+                        <ul class="space-y-2.5 text-xs text-stone-300 mt-4">
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                                <span><strong class="text-white">Mỗi thời kỳ lịch sử:</strong> Có yêu cầu riêng về chuẩn mực lao động, đấu tranh giữ nước và kiến thiết xây dựng xã hội.</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                                <span><strong class="text-white">Đa chiều mối quan hệ:</strong> Con người trong tương quan giai cấp, giới tính, thế hệ lứa tuổi, dân tộc.</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                                <span><strong class="text-white">Khối đại đoàn kết:</strong> Gắn kết trong cộng đồng dân tộc Việt Nam và hòa nhập quan hệ quốc tế, bầu bạn năm châu.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-red-900/40 text-xs text-stone-400 flex items-center justify-between">
+                        <span>Biện chứng lịch sử</span>
+                        <i class="fa-solid fa-clock-rotate-left text-amber-400"></i>
+                    </div>
+                </div>
+
+                <!-- Card 3: Bản chất mang tính xã hội -->
+                <div class="site-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-blue-950/80 border border-blue-400/30 flex items-center justify-center text-cyan-300 text-xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-bold text-white mb-3">
+                            3. Bản Chất Mang Tính Xã Hội
+                        </h3>
+                        <p class="text-stone-300 text-sm leading-relaxed mb-4">
+                            Để tồn tại và phát triển, con người bắt buộc phải tham gia lao động sản xuất. Qua đó, con người khám phá các quy luật và hình thành nên mối quan hệ xã hội.
+                        </p>
+
+                        <!-- Social Layers Visual -->
+                        <div class="inner-card p-4 rounded-2xl space-y-2 text-xs">
+                            <span class="font-bold text-amber-300 block mb-1">Mạng lưới quan hệ từ hẹp đến rộng:</span>
+                            <div class="grid grid-cols-2 gap-2">
+                                <span class="bg-red-950/60 border border-red-800/40 px-2.5 py-1.5 rounded-lg text-center font-medium text-stone-200">Anh - Em</span>
+                                <span class="bg-red-950/60 border border-red-800/40 px-2.5 py-1.5 rounded-lg text-center font-medium text-stone-200">Cha - Con</span>
+                                <span class="bg-red-950/60 border border-red-800/40 px-2.5 py-1.5 rounded-lg text-center font-medium text-stone-200">Chồng - Vợ</span>
+                                <span class="bg-red-950/60 border border-red-800/40 px-2.5 py-1.5 rounded-lg text-center font-medium text-stone-200">Đồng nghiệp</span>
+                            </div>
+                            <div class="bg-amber-950/60 border border-amber-500/40 p-2 rounded-lg text-center font-bold text-amber-300 mt-2">
+                                <i class="fa-solid fa-earth-americas mr-1"></i> Đồng Bào & Toàn Thể Nhân Loại
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-red-900/40 text-xs text-stone-400 flex items-center justify-between">
+                        <span>Tổng hòa các quan hệ xã hội</span>
+                        <i class="fa-solid fa-users text-cyan-400"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Interactive Flower Metaphor Banner -->
+            <div class="mt-12 bg-gradient-to-r from-red-950 via-stone-900 to-red-950 rounded-3xl p-8 text-white relative overflow-hidden border border-amber-400/40 shadow-2xl">
+                <div class="absolute -right-6 -bottom-10 opacity-20 text-9xl select-none">🌸</div>
+                <div class="max-w-3xl relative z-10">
+                    <span class="inline-block px-3 py-1 bg-red-900/80 border border-amber-400/40 rounded-full text-xs font-bold uppercase tracking-wider mb-3 text-amber-300">Thông Điệp Triết Học Sâu Sắc</span>
+                    <h4 class="font-serif text-2xl sm:text-3xl font-bold mb-3 text-white">
+                        “Hoa Mùa Xuân” Trong Mỗi Con Người
+                    </h4>
+                    <p class="text-stone-300 text-sm sm:text-base leading-relaxed mb-6 font-reading">
+                        Hồ Chí Minh luôn giữ niềm tin sắt son vào bản tính thiện lành của con người. Người căn dặn: Mỗi người dù có khuyết điểm, nhưng ai cũng có điểm tốt. Người cán bộ, nhà giáo dục phải biết khơi dậy, bồi dưỡng để cái tốt, cái thiện sinh sôi như hoa cỏ mùa xuân, đẩy lùi và tiêu trừ phần xấu xa, vị kỷ.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-3">
+                        <button onclick="speakQuote('Cần phải biết làm cho phần tốt trong mỗi con người nảy nở như hoa mùa xuân và phần xấu phải mất dần đi.')" class="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold shadow transition-all">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <span>Nghe Lời Bác Căn Dặn</span>
+                        </button>
+                        <button onclick="copyToClipboard('Cần phải biết làm cho phần tốt trong mỗi con người nảy nở như hoa mùa xuân và phần xấu phải mất dần đi. - Hồ Chí Minh')" class="inline-flex items-center space-x-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-xl text-xs sm:text-sm font-medium transition-all">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Sao Chép Trích Dẫn</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Vai trò của con người -->
+    <section id="role" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Phần II • Giá Trị Lịch Sử</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1 mb-4">
+                    Vai Trò Của Con Người Trong Sự Nghiệp Cách Mạng
+                </h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mb-4 rounded-full shadow-sm shadow-amber-400/50"></div>
+                <p class="text-stone-300 text-sm sm:text-base leading-relaxed">
+                    Con người vừa là vốn quý nhất, nhân tố quyết định, vừa là <strong class="text-amber-300">mục tiêu giải phóng</strong> và <strong class="text-amber-300">động lực phát triển</strong> của toàn bộ tiến trình cách mạng.
+                </p>
+            </div>
+
+            <!-- Two Big Columns: Vốn Quý Nhất vs Mục Tiêu & Động Lực -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- 2.1: Vốn quý nhất, nhân tố quyết định -->
+                <div class="site-card rounded-3xl p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <span class="w-10 h-10 rounded-xl bg-amber-500 text-stone-950 flex items-center justify-center font-bold text-lg">2.1</span>
+                            <h3 class="font-serif text-2xl font-bold text-white">Con Người Là Vốn Quý Nhất</h3>
+                        </div>
+
+                        <p class="text-stone-300 text-sm leading-relaxed mb-6">
+                            Trong tư tưởng Hồ Chí Minh, con người trước hết là <strong class="text-amber-300">nhân dân lao động nghèo khổ</strong>, dân tộc bị áp bức, những người nô lệ mất nước và người cùng khổ trên thế giới.
+                        </p>
+
+                        <!-- Quote Block -->
+                        <div class="inner-card p-5 rounded-2xl border-l-4 border-amber-400 mb-6">
+                            <div class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-2 flex items-center justify-between">
+                                <span><i class="fa-solid fa-quote-left mr-1"></i> Sức Mạnh Vô Địch Của Nhân Dân</span>
+                                <button onclick="speakQuote('Dân khí mạnh thì quân lính nào, súng ống nào cũng không chống lại nổi.')" title="Nghe đọc" class="text-stone-400 hover:text-amber-400"><i class="fa-solid fa-volume-high"></i></button>
+                            </div>
+                            <p class="font-reading italic text-amber-100 text-base leading-relaxed">
+                                “Dân khí mạnh thì quân lính nào, súng ống nào cũng không chống lại nổi.”
+                            </p>
+                        </div>
+
+                        <!-- 3 Feature bullets -->
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-7 h-7 rounded-full bg-red-900/80 text-amber-400 flex items-center justify-center text-xs shrink-0 mt-0.5 border border-amber-400/30">
+                                    <i class="fa-solid fa-monument"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-bold text-white">Kế thừa truyền thống ngàn năm</h5>
+                                    <p class="text-xs text-stone-300 mt-0.5">Kế thừa sâu sắc tư tưởng cha ông: “Dân vi quý”, “Dân vi bản”, “Khoan thư sức dân để làm kế sâu rễ bền gốc”.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div class="w-7 h-7 rounded-full bg-amber-900/80 text-yellow-300 flex items-center justify-center text-xs shrink-0 mt-0.5 border border-amber-400/30">
+                                    <i class="fa-solid fa-hammer"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-bold text-white">Chủ thể sáng tạo mọi giá trị</h5>
+                                    <p class="text-xs text-stone-300 mt-0.5">Nhân dân sáng tạo ra mọi của cải vật chất và giá trị tinh thần; là yếu tố tiên quyết quyết định thắng lợi cách mạng.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div class="w-7 h-7 rounded-full bg-blue-950 text-cyan-300 flex items-center justify-center text-xs shrink-0 mt-0.5 border border-cyan-400/30">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-bold text-white">Yêu cầu đối với cán bộ</h5>
+                                    <p class="text-xs text-stone-300 mt-0.5">Phải tuyệt đối tin dân, trọng dân, dựa vào dân, phát huy quyền làm chủ; không được quan liêu xa dân hay xem nhẹ lợi ích nhân dân.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2.2: Con người là Mục tiêu và Động lực -->
+                <div class="site-card rounded-3xl p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <span class="w-10 h-10 rounded-xl bg-yellow-400 text-stone-950 flex items-center justify-center font-bold text-lg">2.2</span>
+                            <h3 class="font-serif text-2xl font-bold text-white">Vừa Là Mục Tiêu, Vừa Là Động Lực</h3>
+                        </div>
+
+                        <p class="text-stone-300 text-sm leading-relaxed mb-6">
+                            Sự kết hợp biện chứng hoàn hảo trong tư tưởng Hồ Chí Minh: Giải phóng xã hội phải gắn liền với giải phóng và phát triển con người toàn diện.
+                        </p>
+
+                        <!-- Interactive Dual Target/Drive Box -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                            <!-- Box: Con người là Mục tiêu -->
+                            <div class="inner-card p-5 rounded-2xl border-l-4 border-red-500">
+                                <div class="flex items-center space-x-2 text-amber-400 font-bold text-sm mb-2">
+                                    <i class="fa-solid fa-bullseye"></i>
+                                    <span>MỤC TIÊU CÁCH MẠNG</span>
+                                </div>
+                                <ul class="text-xs text-stone-300 space-y-2">
+                                    <li>• Giải phóng dân tộc, giai cấp và con người.</li>
+                                    <li>• Xóa bỏ nghèo nàn, bần cùng.</li>
+                                    <li>• Làm cho nhân dân có công ăn việc làm, ấm no và sống hạnh phúc.</li>
+                                    <li>• Nâng cao đời sống vật chất và văn hóa tinh thần.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Box: Con người là Động lực -->
+                            <div class="inner-card p-5 rounded-2xl border-l-4 border-amber-400">
+                                <div class="flex items-center space-x-2 text-yellow-300 font-bold text-sm mb-2">
+                                    <i class="fa-solid fa-bolt"></i>
+                                    <span>ĐỘNG LỰC CÁCH MẠNG</span>
+                                </div>
+                                <ul class="text-xs text-stone-300 space-y-2">
+                                    <li>• Sức mạnh đại đoàn kết toàn dân tộc.</li>
+                                    <li>• Phát huy chế độ dân chủ nhân dân.</li>
+                                    <li>• Khơi dậy lòng yêu nước, ý chí tự lực tự cường.</li>
+                                    <li>• Động lực tinh thần và tài năng sáng tạo của quần chúng.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Summary conclusion -->
+                        <div class="inner-card p-4 rounded-xl text-xs text-stone-300">
+                            <strong class="text-amber-400">Kết luận bản chất:</strong> Cách mạng không phải vì mục đích tự thân, mà cách mạng là sự nghiệp của dân, do dân và vì hạnh phúc đích thực của con người. Mọi chính sách phát triển đều phải lấy con người làm trung tâm.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Quan điểm Hồ Chí Minh về Chiến lược "Trồng Người" -->
+    <section id="planting" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Phần III • Quốc Sách Hàng Đầu</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1 mb-4">
+                    Chiến Lược “Trồng Người” - Quốc Sách Trăm Năm
+                </h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mb-4 rounded-full shadow-sm shadow-amber-400/50"></div>
+                <p class="text-stone-300 text-sm sm:text-base leading-relaxed">
+                    “Trồng người” là một đòi hỏi khách quan, vừa mang tính cấp bách trước mắt, vừa mang tầm chiến lược lâu dài đối với công cuộc kiến thiết đất nước.
+                </p>
+            </div>
+
+            <!-- Historical Milestone Card: 13/9/1958 -->
+            <div class="bg-gradient-to-r from-red-950 via-stone-900 to-red-950 rounded-3xl p-6 sm:p-10 text-white mb-16 border border-amber-400/40 shadow-2xl">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="space-y-3">
+                        <div class="inline-flex items-center space-x-2 bg-amber-500/20 border border-amber-400/40 px-3 py-1 rounded-full text-xs font-semibold text-amber-300">
+                            <i class="fa-solid fa-calendar-day"></i>
+                            <span>Sự kiện lịch sử: Ngày 13 tháng 9 năm 1958</span>
+                        </div>
+                        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-yellow-300">
+                            Chủ Tịch Hồ Chí Minh Nói Chuyện Tại Lớp Chính Trị Giáo Viên
+                        </h3>
+                        <p class="text-stone-200 text-sm sm:text-base max-w-2xl leading-relaxed font-reading italic">
+                            “Vì lợi ích mười năm thì phải trồng cây, vì lợi ích trăm năm thì phải trồng người. Chúng ta phải đào tạo ra những công dân tốt và cán bộ tốt cho nước nhà...”
+                        </p>
+                    </div>
+                    <div class="shrink-0">
+                        <button onclick="speakQuote('Vì lợi ích mười năm thì phải trồng cây, vì lợi ích trăm năm thì phải trồng người. Chúng ta phải đào tạo ra những công dân tốt và cán bộ tốt cho nước nhà.')" class="w-16 h-16 rounded-full bg-gradient-to-tr from-amber-400 to-yellow-300 text-stone-950 hover:scale-105 flex items-center justify-center text-2xl shadow-xl transition-all">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 Core Standards of Socialist Human Beings -->
+            <div class="mb-16">
+                <div class="text-center mb-10">
+                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">
+                        4 Tiêu Chuẩn Của Con Người Xã Hội Chủ Nghĩa
+                    </h3>
+                    <p class="text-xs sm:text-sm text-amber-300/80 mt-2">Theo quan điểm toàn diện của Chủ tịch Hồ Chí Minh</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    
+                    <!-- Tiêu chuẩn 1: Tư tưởng -->
+                    <div class="site-card p-6 rounded-2xl hover:-translate-y-1 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-red-900/80 text-amber-400 flex items-center justify-center text-xl mb-4 border border-amber-400/30">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg text-white mb-2">1. Tư Tưởng</h4>
+                        <ul class="text-xs text-stone-300 space-y-2">
+                            <li>• Có ý thức làm chủ sâu sắc.</li>
+                            <li>• Tinh thần tập thể cao độ: “Mình vì mọi người, mọi người vì mình”.</li>
+                            <li>• Dám nghĩ, dám làm, dám chịu trách nhiệm trước Tổ quốc.</li>
+                            <li>• Quyết chí vượt khó vươn lên.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tiêu chuẩn 2: Đạo đức & Lối sống -->
+                    <div class="site-card p-6 rounded-2xl hover:-translate-y-1 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-amber-900/80 text-yellow-300 flex items-center justify-center text-xl mb-4 border border-amber-400/30">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg text-white mb-2">2. Đạo Đức & Lối Sống</h4>
+                        <ul class="text-xs text-stone-300 space-y-2">
+                            <li>• Trung với nước, hiếu với dân.</li>
+                            <li>• Chuẩn mực: <strong class="text-amber-300">Cần, Kiệm, Liêm, Chính, Chí công vô tư</strong>.</li>
+                            <li>• Giàu lòng nhân ái, vị tha, yêu thương con người.</li>
+                            <li>• Tinh thần quốc tế vô sản trong sáng.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tiêu chuẩn 3: Tác phong -->
+                    <div class="site-card p-6 rounded-2xl hover:-translate-y-1 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-950 text-emerald-300 flex items-center justify-center text-xl mb-4 border border-emerald-400/30">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg text-white mb-2">3. Tác Phong</h4>
+                        <ul class="text-xs text-stone-300 space-y-2">
+                            <li>• Làm việc có kế hoạch, biện pháp, quyết tâm.</li>
+                            <li>• Tác phong tổ chức, kỷ luật nghiêm minh.</li>
+                            <li>• Hướng tới năng suất, chất lượng, hiệu quả cao.</li>
+                            <li>• Lao động hăng say, không sợ khó, không sợ khổ.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tiêu chuẩn 4: Năng lực làm chủ -->
+                    <div class="site-card p-6 rounded-2xl hover:-translate-y-1 transition-all">
+                        <div class="w-12 h-12 rounded-xl bg-blue-950 text-cyan-300 flex items-center justify-center text-xl mb-4 border border-cyan-400/30">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg text-white mb-2">4. Năng Lực Làm Chủ</h4>
+                        <ul class="text-xs text-stone-300 space-y-2">
+                            <li>• Làm chủ bản thân, làm chủ gia đình và công việc.</li>
+                            <li>• Đủ sức khỏe, phẩm hạnh làm chủ nhà nước và xã hội.</li>
+                            <li>• Không ngừng nâng cao trình độ văn hóa, chính trị.</li>
+                            <li>• Làm chủ khoa học – công nghệ và chuyên môn nghề.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Methods & Principles of "Trồng Người" -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center site-card p-8 rounded-3xl">
+                <div>
+                    <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Phương Thức & Con Đường</span>
+                    <h3 class="font-serif text-2xl font-bold text-white mt-1 mb-4">
+                        Giáo Dục, Đào Tạo & Rèn Luyện Suốt Đời
+                    </h3>
+                    <p class="text-stone-300 text-sm leading-relaxed mb-6">
+                        Xây dựng con người phải bắt đầu ngay từ đầu, xuyên suốt cuộc đời, không thể chờ kinh tế phát triển cao mới thực hiện. Con người vừa là đối tượng thụ hưởng, vừa là chủ thể tự vun trồng.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="inner-card p-4 rounded-xl">
+                            <h5 class="text-xs font-bold text-amber-300 uppercase mb-1">
+                                <i class="fa-solid fa-graduation-cap text-yellow-400 mr-1.5"></i> Vai trò của Giáo Dục
+                            </h5>
+                            <p class="text-xs text-stone-300 leading-normal">
+                                Giáo dục và đào tạo là biện pháp then chốt. Con người sinh ra chưa phân biệt hiền dữ, sự trưởng thành phần nhiều do rèn luyện và thụ hưởng giáo dục đúng đắn.
+                            </p>
+                        </div>
+
+                        <div class="inner-card p-4 rounded-xl">
+                            <h5 class="text-xs font-bold text-amber-300 uppercase mb-1">
+                                <i class="fa-solid fa-arrows-spin text-red-400 mr-1.5"></i> Tự tu dưỡng & Đấu tranh nội tâm
+                            </h5>
+                            <p class="text-xs text-stone-300 leading-normal">
+                                Phải kiên trì rèn luyện suốt đời; tích cực xây dựng đức tính tốt, thẳng thắn phê phán và chống thói bàng quan, vị kỷ, lãng phí, tham nhũng.
+                            </p>
+                        </div>
+
+                        <div class="inner-card p-4 rounded-xl">
+                            <h5 class="text-xs font-bold text-amber-300 uppercase mb-1">
+                                <i class="fa-solid fa-flag text-cyan-400 mr-1.5"></i> Dựa vào hệ thống chính trị & phong trào thực tiễn
+                            </h5>
+                            <p class="text-xs text-stone-300 leading-normal">
+                                Phát huy tổ chức chi bộ Đảng, Đoàn Thanh niên, Hội Sinh viên. Đưa con người vào các hoạt động thực tiễn cách mạng để rèn luyện và trưởng thành.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 Famous Poems / Quotes by Uncle Ho -->
+                <div class="space-y-6">
+                    <!-- Poem: Nhật ký trong tù -->
+                    <div class="inner-card p-6 rounded-2xl border-2 border-dashed border-red-500/60 relative">
+                        <div class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-2 flex items-center justify-between">
+                            <span><i class="fa-solid fa-feather-pointed mr-1"></i> Trích Bài Thơ "Nửa Đêm" (Nhật Ký Trong Tù)</span>
+                            <button onclick="speakQuote('Ngủ thì ai cũng như lương thiện, Tỉnh dậy phân ra kẻ dữ, hiền; Hiền, dữ đâu phải là tính sẵn, Phần nhiều do giáo dục mà nên.')" class="text-stone-400 hover:text-amber-300"><i class="fa-solid fa-volume-high"></i></button>
+                        </div>
+                        <blockquote class="font-reading italic text-amber-100 text-sm sm:text-base leading-relaxed pl-3 border-l-2 border-amber-400">
+                            “Ngủ thì ai cũng như lương thiện,<br>
+                            Tỉnh dậy phân ra kẻ dữ, hiền;<br>
+                            Hiền, dữ phải đâu là tính sẵn,<br>
+                            Phần nhiều do <span class="text-yellow-300 font-bold">giáo dục</span> mà nên.”
+                        </blockquote>
+                    </div>
+
+                    <!-- Quote: Tấm lụa trắng -->
+                    <div class="inner-card p-6 rounded-2xl border-2 border-dashed border-amber-500/60 relative">
+                        <div class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-2 flex items-center justify-between">
+                            <span><i class="fa-solid fa-quote-left mr-1"></i> Ẩn Dụ Về Giáo Dục Con Trẻ</span>
+                            <button onclick="speakQuote('Óc của trẻ trong sạch như tấm lụa trắng. Nhuộm xanh thì nó sẽ xanh. Nhuộm đỏ thì nó sẽ đỏ.')" class="text-stone-400 hover:text-amber-300"><i class="fa-solid fa-volume-high"></i></button>
+                        </div>
+                        <blockquote class="font-reading italic text-amber-100 text-sm sm:text-base leading-relaxed pl-3 border-l-2 border-yellow-400">
+                            “Óc của trẻ trong sạch như tấm lụa trắng.<br>
+                            Nhuộm xanh thì nó sẽ xanh.<br>
+                            Nhuộm đỏ thì nó sẽ đỏ.”
+                        </blockquote>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 4: Trách Nhiệm Sinh Viên (Đặc biệt Sinh viên HaUI) -->
+    <section id="students" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Phần IV • Vận Dụng Thực Tiễn</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1 mb-4">
+                    Trách Nhiệm Của Sinh Viên Trong Kỷ Nguyên Số
+                </h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mb-4 rounded-full shadow-sm shadow-amber-400/50"></div>
+                <p class="text-stone-300 text-sm sm:text-base leading-relaxed">
+                    Khắc ghi lời dạy của Người, sinh viên hôm nay - đặc biệt là sinh viên Đại học Công nghiệp Hà Nội (HaUI) - không ngừng rèn luyện đạo đức, nâng cao tri thức, kiến tạo bản sắc <strong class="text-yellow-300">“Tâm sáng – Trí cao”</strong>.
+                </p>
+            </div>
+
+            <!-- 3 Main Interactive Student Pillars -->
+            <div class="space-y-12">
+                
+                <!-- 4.1: Xây dựng con người toàn diện -->
+                <div class="site-card rounded-3xl p-8">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <span class="w-10 h-10 rounded-xl bg-cyan-500 text-stone-950 flex items-center justify-center font-bold text-lg">4.1</span>
+                        <div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">Vai Trò Xây Dựng Con Người Toàn Diện</h3>
+                            <p class="text-xs text-amber-300/80">Rèn luyện toàn diện cả Đức - Trí - Thể - Mỹ</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <!-- Sub 1 -->
+                        <div class="p-5 rounded-2xl inner-card">
+                            <div class="text-amber-400 text-lg mb-3"><i class="fa-solid fa-book-open-reader"></i></div>
+                            <h4 class="font-bold text-white text-sm mb-2">Học Đi Đôi Với Hành</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Chủ động, sáng tạo gắn lý thuyết với thực tiễn. Trung thực trong học tập, kiên quyết nói “không” với gian lận thi cử. Gắn tri thức với chuẩn mực Cần - Kiệm - Liêm - Chính.
+                            </p>
+                        </div>
+
+                        <!-- Sub 2 -->
+                        <div class="p-5 rounded-2xl inner-card">
+                            <div class="text-yellow-400 text-lg mb-3"><i class="fa-solid fa-gavel"></i></div>
+                            <h4 class="font-bold text-white text-sm mb-2">Kỹ Năng & Pháp Luật</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Nâng cao kỹ năng mềm, tác phong công nghiệp. Thượng tôn pháp luật: Sống và làm việc theo Hiến pháp. Thể hiện lòng yêu nước bằng hành động kỷ cương cụ thể.
+                            </p>
+                        </div>
+
+                        <!-- Sub 3 -->
+                        <div class="p-5 rounded-2xl inner-card">
+                            <div class="text-emerald-400 text-lg mb-3"><i class="fa-solid fa-heart-pulse"></i></div>
+                            <h4 class="font-bold text-white text-sm mb-2">Tự Rèn Đạo Đức</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Tu dưỡng bền bỉ mỗi ngày, nghiêm túc “tự soi, tự sửa”. Nuôi dưỡng tấm lòng nhân ái, sự bao dung, sẻ chia khó khăn với bạn bè và cộng đồng xung quanh.
+                            </p>
+                        </div>
+
+                        <!-- Sub 4 -->
+                        <div class="p-5 rounded-2xl inner-card">
+                            <div class="text-purple-400 text-lg mb-3"><i class="fa-solid fa-compass-drafting"></i></div>
+                            <h4 class="font-bold text-white text-sm mb-2">Trách Nhiệm Xã Hội</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Xác định hoài bão, mục tiêu sự nghiệp rõ ràng. Sẵn sàng dấn thân vào nơi gian khổ, đặt lợi ích tập thể và quốc gia - dân tộc lên trên lợi ích cá nhân.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4.2: Hệ Giá Trị Chân - Thiện - Mỹ -->
+                <div class="site-card rounded-3xl p-8">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <span class="w-10 h-10 rounded-xl bg-amber-400 text-stone-950 flex items-center justify-center font-bold text-lg">4.2</span>
+                        <div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">Sinh Viên Hướng Tới Giá Trị “Chân – Thiện – Mỹ”</h3>
+                            <p class="text-xs text-amber-300/80">Kim chỉ nam định hình nhân cách và vẻ đẹp tâm hồn thời đại mới</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Cái Chân -->
+                        <div class="relative overflow-hidden p-6 rounded-2xl inner-card border border-cyan-500/30">
+                            <span class="absolute top-2 right-4 text-6xl font-serif font-black text-cyan-400/10 select-none">CHÂN</span>
+                            <div class="flex items-center space-x-2 text-cyan-300 font-bold text-lg mb-3">
+                                <i class="fa-solid fa-magnifying-glass-location"></i>
+                                <span>Cái Chân (Sự Thật & Lẽ Phải)</span>
+                            </div>
+                            <ul class="text-xs text-stone-300 space-y-2 relative z-10 leading-relaxed">
+                                <li>• Tôn trọng sự thật khoa học, kiên định bảo vệ chân lý và lẽ phải.</li>
+                                <li>• Sống chân thực, trung thực, minh bạch trong học tập và nghiên cứu.</li>
+                                <li>• Nâng cao tư duy phản biện, tinh tường phân biệt đúng – sai, thật – giả trong môi trường số.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Cái Thiện -->
+                        <div class="relative overflow-hidden p-6 rounded-2xl inner-card border border-red-500/30">
+                            <span class="absolute top-2 right-4 text-6xl font-serif font-black text-red-400/10 select-none">THIỆN</span>
+                            <div class="flex items-center space-x-2 text-amber-300 font-bold text-lg mb-3">
+                                <i class="fa-solid fa-hand-holding-heart"></i>
+                                <span>Cái Thiện (Đạo Đức & Nhân Ái)</span>
+                            </div>
+                            <ul class="text-xs text-stone-300 space-y-2 relative z-10 leading-relaxed">
+                                <li>• Hướng tới các giá trị tốt đẹp, cao thượng, trong sạch trong tâm hồn.</li>
+                                <li>• Sống có trước có sau, trọn vẹn nghĩa tình và lòng biết ơn.</li>
+                                <li>• Tinh thần tương thân tương ái, sẵn lòng tương trợ người yếu thế.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Cái Mỹ -->
+                        <div class="relative overflow-hidden p-6 rounded-2xl inner-card border border-amber-500/30">
+                            <span class="absolute top-2 right-4 text-6xl font-serif font-black text-amber-400/10 select-none">MỸ</span>
+                            <div class="flex items-center space-x-2 text-yellow-300 font-bold text-lg mb-3">
+                                <i class="fa-solid fa-palette"></i>
+                                <span>Cái Mỹ (Lối Sống & Thẩm Mỹ)</span>
+                            </div>
+                            <ul class="text-xs text-stone-300 space-y-2 relative z-10 leading-relaxed">
+                                <li>• Năng lực cảm thụ và sáng tạo cái đẹp trong học tập, lao động sáng tạo.</li>
+                                <li>• Xây dựng lối sống văn minh, thanh lịch, hiện đại và chuẩn mực.</li>
+                                <li>• Dũng cảm đấu tranh, kiên quyết bài trừ cái xấu, sự đồi trụy và thói hư tật xấu.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4.3: Trách nhiệm xã hội trong Kỷ Nguyên Số -->
+                <div class="site-card rounded-3xl p-8">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <span class="w-10 h-10 rounded-xl bg-emerald-500 text-stone-950 flex items-center justify-center font-bold text-lg">4.3</span>
+                        <div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">Trách Nhiệm Xã Hội Trong Kỷ Nguyên Số</h3>
+                            <p class="text-xs text-amber-300/80">Chuyển hóa nhận thức lý luận thành hành động số cụ thể mỗi ngày</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="p-6 rounded-2xl inner-card space-y-3">
+                            <div class="w-10 h-10 rounded-xl bg-blue-900/60 text-cyan-300 flex items-center justify-center border border-cyan-400/30">
+                                <i class="fa-solid fa-hashtag"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Văn Hóa Mạng Xã Hội Văn Minh</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Sử dụng không gian mạng có trách nhiệm; tuyệt đối không chia sẻ tin giả, tin sai lệch chưa kiểm chứng. Lan tỏa năng lượng tích cực và bảo vệ nền tảng tư tưởng Đảng trên không gian mạng.
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl inner-card space-y-3">
+                            <div class="w-10 h-10 rounded-xl bg-red-900/60 text-amber-300 flex items-center justify-center border border-amber-400/30">
+                                <i class="fa-solid fa-hands-holding-circle"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Tinh Thần Tình Nguyện Cống Hiến</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Xung kích vì cộng đồng, tham gia các chiến dịch mùa hè xanh, tiếp sức mùa thi, bảo vệ môi trường. Coi môi trường tình nguyện là trường học tôi luyện “đạo đức cách mạng” sắc bén nhất.
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl inner-card space-y-3">
+                            <div class="w-10 h-10 rounded-xl bg-amber-900/60 text-yellow-300 flex items-center justify-center border border-yellow-400/30">
+                                <i class="fa-solid fa-shield-cat"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Bản Lĩnh Số & Tình Yêu Nước</h4>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Khơi dậy lòng tự hào dân tộc mãnh liệt; chủ động trang bị năng lực công nghệ, AI, ngoại ngữ để hội nhập toàn cầu mà không đánh mất bản sắc văn hóa Việt Nam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SECTION 5: KẾT LUẬN & DẤU ẤN SINH VIÊN HaUI -->
+            <div class="mt-16 bg-gradient-to-br from-red-950 via-stone-900 to-red-950 rounded-3xl p-8 sm:p-12 text-white border-2 border-amber-400/40 shadow-2xl relative overflow-hidden">
+                <div class="max-w-4xl relative z-10">
+                    <div class="inline-flex items-center space-x-2 bg-amber-500/20 text-amber-300 border border-amber-400/40 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-4">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Kết Luận & Sứ Mệnh</span>
+                    </div>
+
+                    <h3 class="font-serif text-2xl sm:text-4xl font-extrabold mb-4 leading-tight">
+                        Hệ Giá Trị Soi Đường & Dấu Ấn Sinh Viên HaUI: <br>
+                        <span class="text-yellow-400 font-sans tracking-wide">“TÂM SÁNG – TRÍ CAO”</span>
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                        <div class="inner-card p-5 rounded-2xl">
+                            <div class="flex items-center space-x-2 text-amber-300 font-bold text-sm mb-2">
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                                <span>Hệ Giá Trị Soi Đường</span>
+                            </div>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Tư tưởng Hồ Chí Minh là ngọn đuốc rực sáng dẫn đường cho tiến trình hoàn thiện nhân cách con người Việt Nam, là cơ sở vững chắc để khẳng định tầm vóc và vị thế quốc gia trên trường quốc tế.
+                            </p>
+                        </div>
+
+                        <div class="inner-card p-5 rounded-2xl">
+                            <div class="flex items-center space-x-2 text-yellow-300 font-bold text-sm mb-2">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Bản Sắc Sinh Viên HaUI</span>
+                            </div>
+                            <p class="text-xs text-stone-300 leading-relaxed">
+                                Thẩm thấu sâu sắc triết lý của Người để định hình bản sắc “Tâm sáng – Trí cao”: Sẵn sàng làm chủ tri thức khoa học kỹ thuật hiện đại, giữ vững đạo đức nghề nghiệp và kiên định phụng sự Tổ quốc trong kỷ nguyên số.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- INTERACTIVE SECTION: Sổ Tay Tự Soi Tự Sửa Của Sinh Viên (Checklist) -->
+    <section id="checklist" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Ứng Dụng Thực Hành</span>
+                <h2 class="font-serif text-3xl font-bold text-white mt-1 mb-3">
+                    Sổ Tay Điện Tử: “Tự Soi, Tự Sửa” Mỗi Ngày
+                </h2>
+                <p class="text-stone-300 text-sm">
+                    Đánh dấu các tiêu chí rèn luyện hàng ngày của bạn theo lời dạy của Bác. Dữ liệu được lưu trữ tự động trên thiết bị của bạn.
+                </p>
+            </div>
+
+            <!-- Progress Meter -->
+            <div class="site-card p-6 rounded-3xl mb-8">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-xs sm:text-sm font-bold text-white">Tiến Độ Rèn Luyện Của Bạn</span>
+                    <span id="checklistPercentage" class="text-xs sm:text-sm font-bold text-amber-300">0% Hoàn Thành</span>
+                </div>
+                <div class="w-full bg-stone-900 h-3 rounded-full overflow-hidden border border-red-900/40">
+                    <div id="checklistBar" class="h-full bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full transition-all duration-300" style="width: 0%"></div>
+                </div>
+                <div class="flex items-center justify-between text-[11px] text-stone-400 mt-2">
+                    <span id="checklistCounter">0/10 tiêu chí đã thực hiện</span>
+                    <button id="resetChecklistBtn" class="text-amber-400 hover:underline">Đặt lại</button>
+                </div>
+            </div>
+
+            <!-- Checklist Items -->
+            <div id="checklistContainer" class="space-y-3">
+                <!-- Javascript will render or bind items here -->
+            </div>
+
+            <!-- Reflection Note Area -->
+            <div class="mt-8 site-card p-6 rounded-3xl">
+                <h4 class="font-bold text-sm text-white mb-2 flex items-center space-x-2">
+                    <i class="fa-regular fa-pen-to-square text-amber-400"></i>
+                    <span>Nhật Ký Tự Soi Rèn Bản Thân Hôm Nay:</span>
+                </h4>
+                <textarea id="reflectionNote" rows="3" placeholder="Ghi lại một việc tốt bạn đã làm hôm nay, hoặc một khuyết điểm bạn quyết tâm sửa đổi theo lời dạy của Bác..." class="w-full text-xs sm:text-sm p-3.5 rounded-xl border border-red-900/50 bg-stone-950/80 text-white placeholder-stone-400 focus:ring-2 focus:ring-amber-400 focus:outline-none"></textarea>
+                <div class="flex justify-end mt-2">
+                    <button id="saveNoteBtn" class="px-4 py-2 bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 text-xs font-bold rounded-lg transition-all shadow">
+                        Lưu Nhật Ký
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE SECTION: SƠ ĐỒ TƯ DUY (MINDMAP) -->
+    <section id="mindmap" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Tổng Hợp Trực Quan • Sơ Đồ Tư Duy</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1 mb-4">
+                    Sơ Đồ Tư Duy: Tư Tưởng Hồ Chí Minh Về Con Người
+                </h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mb-4 rounded-full shadow-sm shadow-amber-400/50"></div>
+                <p class="text-stone-300 text-sm leading-relaxed">
+                    Hệ thống hóa toàn bộ kiến thức qua 4 nhánh lớn: Bản chất con người • Vai trò con người • Chiến lược “Trồng người” • Sứ mệnh sinh viên HaUI <em>“Tâm sáng – Trí cao | Phụng sự đất nước”</em>.
+                </p>
+            </div>
+
+            <!-- FEATURED MINDMAP IMAGE SHOWCASE (MUSEUM GRADE) -->
+            <div class="site-card p-4 sm:p-8 rounded-3xl mb-12 shadow-2xl">
+                <!-- Top Toolbar -->
+                <div class="flex flex-col sm:flex-row items-center justify-between pb-4 mb-4 border-b border-red-900/40 gap-3">
+                    <div class="flex items-center space-x-2 text-xs font-bold text-amber-300">
+                        <i class="fa-solid fa-sitemap text-amber-400 text-sm"></i>
+                        <span>BẢN ĐỒ TƯ DUY TỔNG QUAN (HaUI - qlht.haui.edu.vn)</span>
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <button id="openMindmapModalBtn" class="px-3.5 py-1.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 border border-amber-400/40 text-amber-300 hover:text-white text-xs font-semibold transition-all flex items-center space-x-1.5">
+                            <i class="fa-solid fa-expand"></i>
+                            <span>Phóng To Toàn Màn Hình</span>
+                        </button>
+                        <a href="assets/so-do-tu-duy.jpg" download="So-Do-Tu-Duy-Tu-Tuong-Ho-Chi-Minh.jpg" class="px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 text-xs font-bold transition-all shadow flex items-center space-x-1.5">
+                            <i class="fa-solid fa-download"></i>
+                            <span>Tải Ảnh Gốc (HD)</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Clickable Image Container -->
+                <div id="mindmapImgTrigger" class="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-amber-400/40 bg-stone-950 shadow-inner">
+                    <img src="assets/so-do-tu-duy.jpg" alt="Sơ đồ tư duy Tư tưởng Hồ Chí Minh về con người - HaUI" class="w-full h-auto object-contain transform group-hover:scale-[1.015] transition-transform duration-500">
+                    
+                    <!-- Floating Click-to-Zoom Badge Overlay -->
+                    <div class="absolute bottom-3 right-3 bg-black/75 backdrop-blur-md px-3 py-1.5 rounded-full border border-amber-400/40 text-[11px] font-semibold text-amber-300 opacity-90 group-hover:opacity-100 transition-opacity flex items-center space-x-1.5">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <span>Nhấp vào ảnh để xem kích thước lớn</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 Structured Branch Highlights (Companion Details) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Branch 1: Bản chất con người (Màu đỏ/hồng) -->
+                <div class="mindmap-card inner-card rounded-2xl p-5 border-l-4 border-red-500">
+                    <div class="flex items-center justify-between font-bold text-sm text-red-300 mb-3 pb-2 border-b border-red-900/40">
+                        <span class="flex items-center space-x-1.5">
+                            <i class="fa-solid fa-user-group text-xs text-red-400"></i>
+                            <span>1. Bản Chất Con Người</span>
+                        </span>
+                        <span class="text-[10px] uppercase font-bold text-red-400 bg-red-950 px-1.5 py-0.5 rounded">Nhánh 1</span>
+                    </div>
+                    <ul class="text-xs space-y-2 text-stone-300">
+                        <li class="bg-red-950/40 p-2 rounded-lg">• <strong class="text-white">Một chỉnh thể:</strong> Hài hòa tâm - lực - sức khỏe. Thống nhất thiện - ác, làm nảy nở phần tốt.</li>
+                        <li class="bg-red-950/40 p-2 rounded-lg">• <strong class="text-white">Cụ thể, lịch sử:</strong> Gắn với hoàn cảnh xã hội; đa dạng mối quan hệ (gia đình, cộng đồng, quốc tế).</li>
+                        <li class="bg-red-950/40 p-2 rounded-lg">• <strong class="text-white">Tính xã hội:</strong> Cần lao động để sinh tồn; tổng hợp các quan hệ từ anh, em, cha, con...</li>
+                    </ul>
+                </div>
+
+                <!-- Branch 2: Vai trò của con người (Màu xanh dương) -->
+                <div class="mindmap-card inner-card rounded-2xl p-5 border-l-4 border-blue-500">
+                    <div class="flex items-center justify-between font-bold text-sm text-blue-300 mb-3 pb-2 border-b border-red-900/40">
+                        <span class="flex items-center space-x-1.5">
+                            <i class="fa-solid fa-earth-americas text-xs text-blue-400"></i>
+                            <span>2. Vai Trò Con Người</span>
+                        </span>
+                        <span class="text-[10px] uppercase font-bold text-blue-400 bg-blue-950 px-1.5 py-0.5 rounded">Nhánh 2</span>
+                    </div>
+                    <ul class="text-xs space-y-2 text-stone-300">
+                        <li class="bg-blue-950/40 p-2 rounded-lg">• <strong class="text-white">Vốn quý nhất:</strong> Nhân dân lao động bị áp bức; “Dân vi quý”, “Dân vi bản”.</li>
+                        <li class="bg-blue-950/40 p-2 rounded-lg">• <strong class="text-white">Sáng tạo mọi giá trị:</strong> Yếu tố quyết định mọi thắng lợi cách mạng.</li>
+                        <li class="bg-blue-950/40 p-2 rounded-lg">• <strong class="text-white">Mục tiêu & Động lực:</strong> Giải phóng nhân dân ấm no hạnh phúc; dựa vào sức mạnh toàn dân.</li>
+                    </ul>
+                </div>
+
+                <!-- Branch 3: Chiến lược trồng người (Màu cam) -->
+                <div class="mindmap-card inner-card rounded-2xl p-5 border-l-4 border-amber-500">
+                    <div class="flex items-center justify-between font-bold text-sm text-amber-300 mb-3 pb-2 border-b border-red-900/40">
+                        <span class="flex items-center space-x-1.5">
+                            <i class="fa-solid fa-seedling text-xs text-amber-400"></i>
+                            <span>3. Chiến Lược Trồng Người</span>
+                        </span>
+                        <span class="text-[10px] uppercase font-bold text-amber-400 bg-amber-950 px-1.5 py-0.5 rounded">Nhánh 3</span>
+                    </div>
+                    <ul class="text-xs space-y-2 text-stone-300">
+                        <li class="bg-amber-950/40 p-2 rounded-lg">• <strong class="text-white">Yêu cầu khách quan:</strong> “Vì lợi ích mười năm trồng cây, trăm năm trồng người” (1958).</li>
+                        <li class="bg-amber-950/40 p-2 rounded-lg">• <strong class="text-white">Trách nhiệm xã hội:</strong> Của Đảng, Nhà nước và toàn xã hội để đào tạo công dân tốt.</li>
+                        <li class="bg-amber-950/40 p-2 rounded-lg">• <strong class="text-white">4 Tiêu chuẩn XHCN:</strong> 1. Tư tưởng, 2. Đạo đức, 3. Tác phong, 4. Năng lực làm chủ.</li>
+                    </ul>
+                </div>
+
+                <!-- Branch 4: Liên hệ trách nhiệm sinh viên (Màu xanh lục/lam) -->
+                <div class="mindmap-card inner-card rounded-2xl p-5 border-l-4 border-cyan-500">
+                    <div class="flex items-center justify-between font-bold text-sm text-cyan-300 mb-3 pb-2 border-b border-red-900/40">
+                        <span class="flex items-center space-x-1.5">
+                            <i class="fa-solid fa-graduation-cap text-xs text-cyan-400"></i>
+                            <span>4. Trách Nhiệm Sinh Viên</span>
+                        </span>
+                        <span class="text-[10px] uppercase font-bold text-cyan-400 bg-cyan-950 px-1.5 py-0.5 rounded">Nhánh 4</span>
+                    </div>
+                    <ul class="text-xs space-y-2 text-stone-300">
+                        <li class="bg-cyan-950/40 p-2 rounded-lg">• <strong class="text-white">Học tập & Đạo đức:</strong> Học đi đôi với hành; tự rèn nhân cách “Cần kiệm liêm chính”.</li>
+                        <li class="bg-cyan-950/40 p-2 rounded-lg">• <strong class="text-white">Chân – Thiện – Mỹ:</strong> Sự thật (Chân) - Lòng nhân ái (Thiện) - Vẻ đẹp lối sống (Mỹ).</li>
+                        <li class="bg-cyan-950/40 p-2 rounded-lg">• <strong class="text-white">Kỷ nguyên số & HaUI:</strong> Mạng xã hội văn minh; Tình nguyện cống hiến; Bản sắc “Tâm sáng – Trí cao”.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE SECTION: MINI QUIZ / TRẮC NGHIỆM KIẾN THỨC -->
+    <section id="quiz" class="py-20 border-b border-red-900/60 relative">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs">Củng Cố Kiến Thức</span>
+                <h2 class="font-serif text-3xl font-bold text-white mt-1 mb-3">
+                    Thử Tài Trắc Nghiệm Tư Tưởng Hồ Chí Minh
+                </h2>
+                <p class="text-stone-300 text-sm">
+                    Gồm 5 câu hỏi then chốt giúp bạn ôn tập và khắc sâu kiến thức lý luận một cách sinh động.
+                </p>
+            </div>
+
+            <!-- Quiz Card Container -->
+            <div id="quizApp" class="site-card rounded-3xl p-6 sm:p-8">
+                <!-- Top Status Bar -->
+                <div class="flex items-center justify-between pb-4 mb-6 border-b border-red-900/40 text-xs font-semibold text-stone-300">
+                    <span id="quizQuestionCounter">Câu hỏi 1 / 5</span>
+                    <span id="quizScoreDisplay" class="text-amber-400 font-bold">Điểm: 0</span>
+                </div>
+
+                <!-- Question Text -->
+                <h3 id="quizQuestionTitle" class="font-bold text-base sm:text-lg text-white mb-6 leading-snug">
+                    Đang tải câu hỏi...
+                </h3>
+
+                <!-- Options -->
+                <div id="quizOptionsContainer" class="space-y-3 mb-6">
+                    <!-- Dynamically populated via JS -->
+                </div>
+
+                <!-- Explanation Box (Hidden until answered) -->
+                <div id="quizFeedbackBox" class="hidden p-4 rounded-xl text-xs sm:text-sm leading-relaxed mb-6"></div>
+
+                <!-- Action Controls -->
+                <div class="flex items-center justify-between pt-4 border-t border-red-900/40">
+                    <button id="quizPrevBtn" class="px-4 py-2 rounded-xl text-xs font-semibold text-stone-400 hover:text-white disabled:opacity-30 disabled:pointer-events-none" disabled>
+                        <i class="fa-solid fa-arrow-left mr-1"></i> Câu trước
+                    </button>
+                    <button id="quizNextBtn" class="px-5 py-2.5 rounded-xl text-xs font-bold bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 text-stone-950 transition-all disabled:opacity-40" disabled>
+                        <span>Câu tiếp theo</span>
+                        <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Quiz Result Card (Hidden until finished) -->
+            <div id="quizResultBox" class="hidden site-card rounded-3xl p-8 text-center shadow-2xl">
+                <div class="w-16 h-16 rounded-full bg-amber-500/20 text-yellow-300 flex items-center justify-center text-3xl mx-auto mb-4 border border-amber-400/40">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-white mb-2">Chúc Mừng Bạn Đã Hoàn Thành!</h3>
+                <p id="quizFinalScore" class="text-lg font-bold text-amber-300 mb-4">Bạn đạt 5/5 điểm</p>
+                <p id="quizFinalFeedback" class="text-xs sm:text-sm text-stone-300 max-w-md mx-auto mb-6">
+                    Bạn nắm rất vững các luận điểm then chốt của Chủ tịch Hồ Chí Minh về con người và chiến lược giáo dục!
+                </p>
+                <button id="quizRestartBtn" class="px-6 py-2.5 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 text-stone-950 text-xs sm:text-sm font-bold shadow-lg transition-all">
+                    <i class="fa-solid fa-rotate-right mr-1.5"></i> Làm Lại Bài Thi
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH MODAL (Ctrl + K) -->
+    <div id="searchModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-start justify-center pt-20 px-4">
+        <div class="bg-stone-950 rounded-2xl w-full max-w-xl border border-red-900/60 shadow-2xl overflow-hidden">
+            <div class="p-4 border-b border-red-900/60 flex items-center space-x-3">
+                <i class="fa-solid fa-magnifying-glass text-amber-400"></i>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm theo từ khóa (Ví dụ: hoa mùa xuân, dân khí, trồng người, HaUI...)" class="w-full bg-transparent border-0 text-sm focus:outline-none text-white placeholder-stone-400">
+                <button id="closeSearchBtn" class="text-xs text-amber-300 px-2 py-1 bg-red-950 rounded border border-red-800">ESC</button>
+            </div>
+            <div id="searchResults" class="max-h-80 overflow-y-auto p-4 space-y-2 text-xs">
+                <p class="text-stone-400 text-center py-6">Nhập từ khóa để bắt đầu tra cứu nhanh nội dung.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MINDMAP LIGHTBOX MODAL -->
+    <div id="mindmapModal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-3 sm:p-6 transition-all duration-300">
+        <div class="relative max-w-6xl w-full max-h-[95vh] flex flex-col items-center">
+            <!-- Header bar -->
+            <div class="w-full flex items-center justify-between pb-3 text-white">
+                <span class="text-xs sm:text-sm font-bold text-amber-300 flex items-center gap-2">
+                    <i class="fa-solid fa-sitemap text-amber-400"></i>
+                    <span>SƠ ĐỒ TƯ DUY: TƯ TƯỞNG HỒ CHÍ MINH VỀ CON NGƯỜI (HaUI)</span>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <a href="assets/so-do-tu-duy.jpg" download="So-Do-Tu-Duy-Tu-Tuong-Ho-Chi-Minh.jpg" class="px-3.5 py-1.5 bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-stone-950 text-xs font-bold rounded-xl transition-all shadow flex items-center space-x-1.5">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Tải Ảnh Gốc</span>
+                    </a>
+                    <button id="closeMindmapModalBtn" class="p-2 rounded-xl text-stone-300 hover:text-white bg-stone-900 hover:bg-red-950 border border-stone-700 transition-colors">
+                        <i class="fa-solid fa-xmark text-base"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Image frame -->
+            <div class="overflow-auto max-h-[85vh] w-full rounded-2xl border-2 border-amber-400/50 bg-stone-950 shadow-2xl flex justify-center">
+                <img src="assets/so-do-tu-duy.jpg" alt="Sơ đồ tư duy Tư tưởng Hồ Chí Minh về con người - HaUI" class="max-w-full h-auto object-contain">
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toastNotification" class="fixed bottom-6 right-6 z-50 bg-stone-950 text-white text-xs px-4 py-3 rounded-xl shadow-2xl border border-amber-400/40 transform translate-y-20 opacity-0 transition-all duration-300 flex items-center space-x-2">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i>
+        <span id="toastMessage">Thông báo</span>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-950 text-stone-400 pt-16 pb-12 border-t border-red-900/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <!-- Col 1 -->
+                <div class="md:col-span-2 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-red-700 border border-amber-400 flex items-center justify-center text-white font-bold">
+                            <i class="fa-solid fa-star text-yellow-300 star-glow"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-serif font-bold text-lg">Học Phần: Tư Tưởng Hồ Chí Minh</h4>
+                            <p class="text-xs text-amber-400">GVHD: ThS. Nguyễn Thị Ngọc • Báo cáo: Nhóm 7</p>
+                        </div>
+                    </div>
+                    <p class="text-xs text-stone-300 max-w-md leading-relaxed font-reading">
+                        Trang web được thiết kế nhằm hệ thống hóa quan điểm của Bác về con người, chiến lược trồng người và định hướng hành động thiết thực cho sinh viên trong kỷ nguyên số.
+                    </p>
+                    <div class="text-xs text-amber-300 font-medium">
+                        Dấu ấn sinh viên HaUI: <span class="text-white font-bold">“Tâm sáng – Trí cao – Vững bước tương lai”</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h5 class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-4">Các Luận Điểm Chính</h5>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#intro" class="hover:text-amber-300 transition-colors">• Bản chất con người là chỉnh thể</a></li>
+                        <li><a href="#role" class="hover:text-amber-300 transition-colors">• Con người là vốn quý & mục tiêu</a></li>
+                        <li><a href="#planting" class="hover:text-amber-300 transition-colors">• Quốc sách “Trồng người”</a></li>
+                        <li><a href="#students" class="hover:text-amber-300 transition-colors">• Giá trị Chân - Thiện - Mỹ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Interactive tools -->
+                <div>
+                    <h5 class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-4">Công Cụ Học Tập</h5>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#checklist" class="hover:text-amber-300 transition-colors">• Sổ tay tự soi tự sửa</a></li>
+                        <li><a href="#mindmap" class="hover:text-amber-300 transition-colors">• Sơ đồ tư duy trực quan</a></li>
+                        <li><a href="#quiz" class="hover:text-amber-300 transition-colors">• Bài trắc nghiệm kiến thức</a></li>
+                        <li><a href="#hero" class="hover:text-amber-300 transition-colors">• Về đầu trang</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-red-900/40 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400">
+                <p>© 2026 Học phần Tư tưởng Hồ Chí Minh. Nhóm 7 - Đại học Công nghiệp Hà Nội (HaUI).</p>
+                <p class="mt-2 sm:mt-0 flex items-center space-x-1">
+                    <span>Thực hiện với niềm tự hào dân tộc</span>
+                    <i class="fa-solid fa-heart text-red-500 text-xs"></i>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
